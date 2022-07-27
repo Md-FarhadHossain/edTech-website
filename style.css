@@ -4,3 +4,18 @@
 body {
     font-family: 'Poppins', sans-serif;
 }
+
+/* Header */
+
+/* Carousel */
+.caro-usel img {
+    height: 80vh;
+    object-fit: cover;
+    filter: brightness(0.5);
+}
+.carousel-info {
+    padding: 0 100px;
+    bottom: 200px;
+}
+/* Carousel end */
+/* Header end */
