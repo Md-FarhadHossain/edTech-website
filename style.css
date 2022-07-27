@@ -12,9 +12,18 @@ body {
     height: 80vh;
     object-fit: cover;
     filter: brightness(0.5);
+} 
+.button {
+    background: linear-gradient(180deg, #239adf, #0f74af);
+    padding: .7rem 2rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #fff;
+    border-radius: .3em;
+    border: 1px solid #358cf9;
 }
 .carousel-info {
-    padding: 0 100px;
+    padding: 0 1.5rem;
     bottom: 200px;
 }
 /* Carousel end */
@@ -31,6 +40,7 @@ body {
     height: 100%;
     object-fit: cover;
 }
+
 /* Courses section end */
 
 /* Main section end */
