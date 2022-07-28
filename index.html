@@ -309,7 +309,119 @@
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     </div>
                     <div class="col-6 text-end">
-                        <button class="btn btn-light">Resister now</button>
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-light fw-semibold" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                          Register Now
+                        </button>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                          <div class="modal-dialog">
+                            <div class="modal-content">
+                              <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                              </div>
+                              <div class="modal-body text-dark">
+                                <!-- Register form -->
+                                <h2 class="text-center my-4">Register Now</h2>
+
+                                <!-- form 1 -->
+                                <div>
+                                  <div class="text-start">
+                                    <label class="fw-semibold" for="username">Username</label>
+                                  </div>
+
+                                  <div class="input-group flex-nowrap mb-4">                            
+                                    <span class="input-group-text bg-white" id="username">
+                                      <i class="bi bi-person-circle"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="addon-wrapping">             
+                                  </div>
+
+                                </div>
+
+                                <!-- form 2 -->
+                                <div>
+                                  <div class="text-start">
+                                    <label class="fw-semibold" for="username">Email</label>
+                                  </div>
+
+                                  <div class="input-group flex-nowrap mb-4">                            
+                                    <span class="input-group-text bg-white" id="username">
+                                      <i class="bi bi-envelope"></i>
+                                    </span>
+                                    <input type="email" class="form-control" placeholder="email@mail.com" aria-label="Username" aria-describedby="addon-wrapping">             
+                                  </div>
+
+                                </div>
+
+                                <!-- form 3 -->
+                                <div>
+                                  <div class="text-start">
+                                    <label class="fw-semibold" for="username">Phone Number</label>
+                                  </div>
+
+                                  <div class="input-group flex-nowrap mb-4">                            
+                                    <span class="input-group-text bg-white" id="username">
+                                      <i class="bi bi-telephone"></i>
+                                    </span>
+                                    <input type="number" class="form-control" placeholder="Phone number" aria-label="Username" aria-describedby="addon-wrapping">             
+                                  </div>
+
+                                </div>
+
+                                <!-- form 4 -->
+                                <div>
+                                  <div class="text-start">
+                                    <label class="fw-semibold" for="username">City</label>
+                                  </div>
+
+                                  <div class="input-group flex-nowrap mb-4">                            
+                                    <span class="input-group-text bg-white" id="username">
+                                      <i class="bi bi-building"></i>
+                                    </span>
+                                    <input type="text" class="form-control" placeholder="City" aria-label="Username" aria-describedby="addon-wrapping">             
+                                  </div>
+
+                                </div>
+
+                                <!-- form 5 -->
+                                <div>
+                                  <div class="text-start">
+                                    <label class="fw-semibold" for="username">Country</label>
+                                  </div>
+
+                                  <div class="input-group mb-3">
+                                    <label class="input-group-text bg-white" for="inputGroupSelect01">
+                                      <i class="bi bi-globe"></i>
+                                    </label>
+                                    <select class="form-select" id="inputGroupSelect01">
+                                      <option selected>Choose your country</option>
+                                      <option value="1">Bangladesh</option>
+                                      <option value="2">United State</option>
+                                      <option value="3">United Kingdom</option>
+                                      <option value="4">India</option>
+                                      <option value="5">China</option>
+                                      <option value="6">Dubai</option>
+                                    </select>
+                                  </div>
+                                  
+
+                                </div>
+                              </div>
+
+                        
+
+                              <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button class="btn btn-info">Register now</button>
+                              </div>
+
+                            </div>
+                          </div>
+                        </div>
+
                     </div>
                 </div>
             </div>
