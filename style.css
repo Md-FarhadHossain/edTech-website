@@ -5,13 +5,13 @@ body {
 }
 /* Carousel */
 .caro-usel img {
-    height: 80vh;
+    height: 60vh;
     object-fit: cover;
     filter: brightness(0.5);
 } 
 .carousel-info {
     padding: 0 1.5rem;
-    bottom: 200px;
+    bottom: 100px;
 }
 /* Carousel end */
 /* Courses section */
