@@ -1,33 +1,24 @@
 /* font-family: 'Poppins', sans-serif; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-
 body {
     font-family: 'Poppins', sans-serif;
 }
-
-
 /* Carousel */
 .caro-usel img {
     height: 80vh;
     object-fit: cover;
     filter: brightness(0.5);
 } 
-
 .carousel-info {
     padding: 0 1.5rem;
     bottom: 200px;
 }
 /* Carousel end */
-
-
-
-
 /* Courses section */
 .card-img {
     height: 175px;
     object-fit: cover;
 }
-
 /* Courses section end */
 .carousel-prev-btn,.carousel-next-btn {
     background: #e5f6ff;
@@ -43,8 +34,6 @@ body {
     left: 919px;
     top: -269px;
 }
-
-
 /* Footer */
 .social-icon {
     display: inline-block;
