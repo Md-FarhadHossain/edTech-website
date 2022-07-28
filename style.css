@@ -5,7 +5,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-/* Header */
 
 /* Carousel */
 .caro-usel img {
@@ -13,27 +12,15 @@ body {
     object-fit: cover;
     filter: brightness(0.5);
 } 
-.button {
-    background: linear-gradient(180deg, #239adf, #0f74af);
-    padding: .7rem 2rem;
-    font-size: 1.1rem;
-    font-weight: 600;
-    color: #fff;
-    border-radius: .3em;
-    border: 1px solid #358cf9;
-}
+
 .carousel-info {
     padding: 0 1.5rem;
     bottom: 200px;
 }
 /* Carousel end */
-/* Header end */
 
 
 
-
-
-/* Main section */
 
 /* Courses section */
 .card-img {
@@ -56,9 +43,13 @@ body {
     left: 919px;
     top: -269px;
 }
-/* Main section end */
-
-
 
 
 /* Footer */
+.social-icon {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background: #444444;
+    cursor: pointer;
+}
