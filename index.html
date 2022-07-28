@@ -506,7 +506,7 @@
  
                 </div>
 
-                <div class="succesful-button text-center my-5 d-md-none d-sm-block">
+                <div class="succesful-button text-center my-5 d-lg-block d-md-none d-sm-block">
                     <button class="btn btn-primary button">View All</button>
                 </div>
             </div>
@@ -604,10 +604,25 @@
             <!-- FAQ section -->
             <div class="faq-content">
                 <div class="faq-info d-flex justify-content-center">
-                    <div class="text-center px-5 w-75">
+
+                  <!-- For Desktop -->
+                    <div class="text-center px-5 w-75 d-none d-lg-block">
                         <h1>Frequently Asked Questions</h1>
                         <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
                     </div>
+
+                  <!-- For tablet -->
+                  <div class="text-center px-5 w-100 d-lg-none d-md-block d-none">
+                    <h1>Frequently Asked Questions</h1>
+                    <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+                </div>
+
+                <!-- For mobile -->
+                <div class="text-center w-100 d-lg-none d-md-none d-block">
+                  <h1>Frequently Asked Questions</h1>
+                  <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+              </div>
+
                 </div>
 
                 <!-- According -->
